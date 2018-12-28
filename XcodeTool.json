@@ -1,0 +1,30 @@
+{
+  "list": [
+    "swift",
+    "h",
+    "md",
+    "plist",
+    "pbxproj",
+    "xcscheme"
+  ],
+  "ignore": [
+    ".git"
+  ],
+  "remove": [
+    "xcuserdata",
+    "podspec"
+  ],
+  "protect": [
+    "Base on Tof Templates"
+  ],
+  "alias": {
+    "TARGET": "Template"
+  },
+  "items": [
+    {
+      "enable": true,
+      "original": "Template",
+      "new": "$(TARGET)"
+    }
+  ]
+}
